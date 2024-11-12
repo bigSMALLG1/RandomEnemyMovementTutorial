@@ -15,7 +15,7 @@ This tutorial demonstrates how you program enemies to move in random directions,
 
 5. Open up on the C# script and we can begin programming. Delete the default notes in the script (// Start is called before the first frame update) and (// Update is called once per frame).
 
-6. We want to begin by creating our variables. We are going to need 5: enemySpeed; minTime; maxTime; a Vector3 direction and timer;
+6. We want to begin by creating our variables, writing them underneath the public class after the first square bracket. We are going to need 5: enemySpeed; minTime; maxTime; a Vector3 direction and timer;
 
 7. All variables par from 1 will be float variables, the syntax is as follows:
 
@@ -33,6 +33,6 @@ This tutorial demonstrates how you program enemies to move in random directions,
    ![image](https://github.com/user-attachments/assets/82226e59-c486-4f48-b4ca-ec65a197ff76)
 
 
-9. 
+9. Once you have created your variables, navigate to the private void start() method where we will be writing our code within the square brackets. We will need to set a random direction for our enemy to travel in, so we will be using transform.translate which gets the game object to move and Random.insideUnitSphere which will set a random value for the direction variable.
 
 10. 
