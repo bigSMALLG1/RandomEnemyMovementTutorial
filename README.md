@@ -30,6 +30,8 @@ This tutorial demonstrates how you program enemies to move in random directions,
 
    private float timer; (The variable where our random time between 1 and 3 seconds will be stored)
 
+   ![image](https://github.com/user-attachments/assets/82226e59-c486-4f48-b4ca-ec65a197ff76)
+
 
 9. 
 
