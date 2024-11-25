@@ -36,4 +36,22 @@ This tutorial demonstrates how you program enemies to move in random directions,
 
 9. Once you have created your variables, navigate to the private void start() method where we will be writing our code within the square brackets. We will need to set a random direction for our enemy to travel in, so we will be using transform.translate which gets the game object to move and Random.insideUnitSphere which will set a random value for the direction variable.
 
-10. 
+10. The syntax is as follows:
+
+ ![image](https://github.com/user-attachments/assets/510fe836-4c57-405f-abf2-b2f8fee4ccf3)
+
+13. Within the square brackets of the update method, the syntax is as follows:
+    transform.Translate(direction * enemySpeed * Time.deltaTime); (This allows the gameobject to move, it will move in a random direction at our set speed (enemySpeed) and also multiplied by Time.deltaTime which makes the game frame independent so it runs at the
+    same frame rate on any computer.
+    timer -= Time.deltaTime; (this causes the timer to decrease every second)
+
+14. Now that we have our gameobject moving in a random direction, we will want it to change direction once the timer hits 0.
+
+15. Within the same set of square brackets, we will be using an if statement. An if statement allows a certain set of code to run only if a certain condition or conditions are met. In our case we want our gameobject to change direction IF the timer reaches 0.
+    ![image](https://github.com/user-attachments/assets/581bf86c-02a1-40c9-9332-fc798e9d7123)
+
+    This will cause the enemy to change direction when the timer hits 0, whilst also resetting the timer to a random value within our minimum and maximum times.
+
+
+
+    
