@@ -14,11 +14,14 @@ This tutorial demonstrates how you program enemies to move in random directions,
 
 4. Before we start programming, it is good practice to name our game objects, so that our projects are easier to understand. Right click on Circle on the hierarchy and rename it to "enemy".
 
-5. Open up on the C# script and we can begin programming. Delete the default notes in the script (// Start is called before the first frame update) and (// Update is called once per frame). We will also want to drag and drop the script on to our enemy sprite
+5. Open up on the C# script and we can begin programming. Delete the default notes in the script (// Start is called before the first frame update) and (// Update is called once per frame). We will also want to drag and drop the script in to the bottom of the inspector    of our enemy sprite.
 
-6. We want to begin by creating our variables, writing them underneath the public class after the first square bracket. We are going to need 5: enemySpeed; minTime; maxTime; a Vector3 direction and timer;
+   ![image](https://github.com/user-attachments/assets/5102ebb5-d471-474b-8cfd-632362a9ca3a)
 
-7. All variables par from 1 will be float variables, the syntax is as follows:
+
+7. We want to begin by creating our variables, writing them underneath the public class after the first square bracket. We are going to need 5: enemySpeed; minTime; maxTime; a Vector3 direction and timer;
+
+8. All variables par from 1 will be float variables, the syntax is as follows:
 
    private float enemySpeed = 2f; (This will be the actual speed that our enemy will travel at;
 
