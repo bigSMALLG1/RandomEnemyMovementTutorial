@@ -55,6 +55,8 @@ This tutorial demonstrates how you program enemies to move in random directions,
 
     This will cause the enemy to change direction when the timer hits 0, whilst also resetting the timer to a random value within our minimum and maximum times.
 
+16. Play test the scripts and tweak the variables to your liking.
+
 
 
     
