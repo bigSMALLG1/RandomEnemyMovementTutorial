@@ -51,11 +51,13 @@ This tutorial demonstrates how you program enemies to move in random directions,
 14. Now that we have our gameobject moving in a random direction, we will want it to change direction once the timer hits 0.
 
 15. Within the same set of square brackets, we will be using an if statement. An if statement allows a certain set of code to run only if a certain condition or conditions are met. In our case we want our gameobject to change direction IF the timer reaches 0.
-    ![image](https://github.com/user-attachments/assets/581bf86c-02a1-40c9-9332-fc798e9d7123)
+
+     ![image](https://github.com/user-attachments/assets/581bf86c-02a1-40c9-9332-fc798e9d7123)
+
 
     This will cause the enemy to change direction when the timer hits 0, whilst also resetting the timer to a random value within our minimum and maximum times.
 
-16. Play test the scripts and tweak the variables to your liking.
+17. Play test the scripts and tweak the variables to your liking.
 
 
 
